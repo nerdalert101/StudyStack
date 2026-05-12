@@ -37,6 +37,15 @@ export const subjects = [
   tag: 'Core Subject',
   color: 'orange'
 },
+{
+  id: 'phy',
+  title: 'PHY',
+  fullTitle: 'Physics',
+  route: '/phy',
+
+  tag: 'Core Subject',
+  color: 'pink'
+},
 
   // ── PASTE NEW SUBJECTS BELOW THIS LINE ──────────────────────
   // {
@@ -672,6 +681,83 @@ export const feeeResources = {
       description:
         'other pdfs and ppts from various models .',
       notesUrl: "/feee/extra.zip"
+    },
+  ],
+}
+export const phyResources = {
+  topLinks: [
+    {
+      id: 'lessonplan',
+      label: 'Lesson Plan',
+      icon: '📘',
+      description: 'Official course lesson plan and syllabus',
+      url: 'https://drive.google.com/file/d/1cJ_K6zjG8Afk6IfQiA2X3NUp_V5torcp/view'
+    },
+
+  
+
+    {
+      id: 'pyqs',
+      label: 'PYQs Repository',
+      icon: '📝',
+      description: 'Previous year questions for practice (Use your GITAM account)',
+      url: 'https://digitalrepository.gitam.edu/old_question_papers',
+    },
+  ],
+
+  units: [
+    {
+      id: 'unit1',
+      title: 'Unit 1',
+      subtitle: 'Oscillations',
+      description:
+        'Study of SHM, damped and forced oscillations, spring-mass systems, resonance, and energy dissipation.',
+      notesUrl: "https://openstax.org/books/university-physics-volume-1/pages/15-1-simple-harmonic-motion"
+    },
+
+    {
+      id: 'unit2',
+      title: 'Unit 2',
+      subtitle: 'Basic Idea of Electromagnetism',
+      description:
+        'Gauss laws, Faradays law, Ampere law, displacement current, and Maxwells equations.',
+      notesUrl: "/phy/unit2.pdf"
+    },
+
+    {
+      id: 'unit3',
+      title: 'Unit 3',
+      subtitle: 'Optics',
+      description:
+        'Interference, diffraction, polarization, Newton rings, diffraction grating, and double refraction.',
+      notesUrl: "/phy/unit3.zip"
+    },
+
+    {
+      id: 'unit4',
+      title: 'Unit 4',
+      subtitle: 'Quantum Mechanics',
+      description:
+        'Matter waves, Schrodinger equation, wave function, particle in a box, and uncertainty principle.',
+      notesUrl: "/phy/unit4.pdf"
+    },
+
+    {
+      id: 'unit5',
+      title: 'Unit 5',
+      subtitle: 'Lasers and Fiber Optics',
+      description:
+        'Laser properties, stimulated emission, laser types, optical fibers, numerical aperture, and applications.',
+      notesUrl: "/phy/unit5.zip"
+    },
+
+    {
+      id: 'questionbank',
+      title: 'Question Bank',
+      subtitle: 'Question Bank for Physics all modules',
+      description:
+        'Additional PDFs, PPTs, derivations, and reference materials for Engineering Physics.',
+      notesUrl: "/phy/sampleqns.pdf"
     },
   ],
 }

@@ -8,6 +8,7 @@ import OOPSPage from './pages/OOPS/OOPSPage'
 import OSPage from './pages/OS/OSPage'
 import DAAPage from './pages/DAA/DAAPage'
 import FEEEPage from './pages/FEEE/FEEEPage'
+import PHYPage from './pages/PHY/PHYPage'
 
 // ─────────────────────────────────────────────────────────────
 // HOW TO ADD MORE SUBJECTS:
@@ -28,6 +29,7 @@ function App() {
       <Route path="/os" element={<OSPage />} />
       <Route path="/daa" element={<DAAPage />} />
       <Route path="/feee" element={<FEEEPage />} />
+      <Route path="/phy" element={<PHYPage />} />
       {/* ADD NEW SUBJECT ROUTES HERE */}
       {/* Example: <Route path="/os" element={<OSPage />} /> */}
     </Routes>
